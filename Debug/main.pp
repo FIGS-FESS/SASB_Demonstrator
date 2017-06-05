@@ -27,8 +27,8 @@ main.obj: C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/
 main.obj: C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_Dma_defines.h
 main.obj: C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_I2C_defines.h
 main.obj: C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_DefaultISR.h
-main.obj: C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/include/math.h
-main.obj: C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/include/linkage.h
+main.obj: C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/include/math.h
+main.obj: C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/include/linkage.h
 
 ../main.c: 
 C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP28x_Project.h: 
@@ -57,5 +57,5 @@ C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_e
 C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_Dma_defines.h: 
 C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_I2C_defines.h: 
 C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/include/DSP2833x_DefaultISR.h: 
-C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/include/math.h: 
-C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/include/linkage.h: 
+C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/include/math.h: 
+C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/include/linkage.h: 

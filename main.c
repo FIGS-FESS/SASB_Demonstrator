@@ -1,5 +1,13 @@
 //###########################################################################
-//
+// 
+// This is the SASB (Single Axis Single Bearing) stabilization code
+// for use with the SASB test bench, aka stabilization demonstrator 
+// Please don't use this with the real Stabilization Bearing!
+// There is another file with the correct PID tuning constants for that
+// machine's physical properties, and also this code only works in  
+// one dimension while the SB is free to move in two dimensions.
+// Re-tested and re-labelled by the 2016-17 Flywheel Controls team
+// 
 // FILE:   main.c
 //
 // ASSUMPTIONS:
@@ -609,7 +617,7 @@ interrupt void  adc_isr(void)
 
 // ------------ Initiates step change in setpoint for debug purposes
 
-	///*
+	/*      //re-commented out by Brian Cartwright 4/13/17
 
 	if(Time_counter == 200000)
 		{

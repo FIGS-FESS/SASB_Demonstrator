@@ -89,11 +89,11 @@
 	<variableList>
 		<variable>
 			<name>INSTALLROOT_2833X_TO_FASTRTS</name>
-			<value>$%7BPARENT-5-ORIGINAL_PROJECT_ROOT%7D%5Clibs%5Cmath%5CFPUfastRTS</value>
+			<value>$%7BPARENT-5-ORIGINAL_PROJECT_ROOT%7D/libs/math/FPUfastRTS</value>
 		</variable>
 		<variable>
 			<name>INSTALLROOT_2833X_TO_IQMATH</name>
-			<value>$%7BPARENT-5-ORIGINAL_PROJECT_ROOT%7D%5Clibs%5Cmath%5CIQmath</value>
+			<value>$%7BPARENT-5-ORIGINAL_PROJECT_ROOT%7D/libs/math/IQmath</value>
 		</variable>
 		<variable>
 			<name>INSTALLROOT_2833X_V132</name>
@@ -101,7 +101,7 @@
 		</variable>
 		<variable>
 			<name>ORIGINAL_PROJECT_ROOT</name>
-			<value>file:/C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_examples_ccsv4/adc_soc/</value>
+			<value>file:/C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_examples_ccsv4/adc_soc</value>
 		</variable>
 	</variableList>
 </projectDescription>

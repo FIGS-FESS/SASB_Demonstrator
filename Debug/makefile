@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4
+CG_TOOL_ROOT := C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0
 
 ORDERED_OBJS += \
 $(GEN_CMDS__FLAG) \
@@ -127,7 +127,7 @@ all: test_v5.out
 test_v5.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C2000 Linker'
-	"C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define="_DEBUG" --define="LARGE_MODEL" --quiet --verbose_diagnostics --diag_warning=225 --issue_remarks --output_all_syms --cdebug_asm_data -z -m"test_v5.map" --stack_size=0x380 --warn_sections -i"C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/lib" -i"C:/ti/ccsv5p5/ccsv5/tools/compiler/c2000_6.2.4/include" -i"C:/Users/Brent/workspace_v5_5/SASB_Test_Setup_Final_Version" -i"C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/lib" -i"C:/ti/controlSUITE/libs/math/IQmath/v15c/lib" -i"C:/ti/controlSUITE/libs/math/FPUfastRTS/V100/lib" --reread_libs --priority --verbose_diagnostics --issue_remarks --xml_link_info="test_v5_linkInfo.xml" --entry_point=code_start --rom_model -o "test_v5.out" $(ORDERED_OBJS)
+	"C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define="_DEBUG" --define="LARGE_MODEL" --quiet --verbose_diagnostics --diag_warning=225 --issue_remarks --output_all_syms --cdebug_asm_data -z -m"test_v5.map" --stack_size=0x380 --warn_sections -i"C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/lib" -i"C:/ti/v5/ccsv5/tools/compiler/c2000_6.2.0/include" -i"C:/Users/bdc36/Downloads/Fw%3a_UIFESS_-_SASB_test_setup/SASB_Test_Setup/MCU_code_SASB_Test_Setup/SASB_Test_Setup_Final_Version" -i"C:/ti/controlSUITE/device_support/f2833x/v133/DSP2833x_common/lib" -i"C:/ti/controlSUITE/libs/math/IQmath/v15c/lib" -i"C:/ti/controlSUITE/libs/math/FPUfastRTS/V100/lib" --reread_libs --priority --verbose_diagnostics --issue_remarks --xml_link_info="test_v5_linkInfo.xml" --entry_point=code_start --rom_model -o "test_v5.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
